@@ -36,11 +36,9 @@ class Stack {
   push(el) {
     return this.arr.push(el);
   }
-
   pop(el) {
     return this.arr.pop(el);
   }
-
   peek() {
     return this.arr[this.arr.length - 1];
   }
